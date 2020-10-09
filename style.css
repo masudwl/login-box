@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+    box-sizing: border-box;
+    background: url(img/bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 280px;
+    height: 300px; 
+    background: #fff;
+    top: 20%;
+    left: 60%; 
+    position: absolute;
+    border-radius: 5px;
+    padding: 70px 30px;
+}
+.avater{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.container p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+.container input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.container input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #888;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+.container input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: .5s;
+    background: #D68A3A;
+    color: #fff;
+}
+.container input[type="submit"]:hover{
+    cursor: pointer;
+    background: tomato;
+    color: #fff;
+}
+.container a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    transition: .5s;
+}
+.container a:hover{
+    color: tomato;
+}
